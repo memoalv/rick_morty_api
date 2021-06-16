@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "rick_morty_api/version"
-
-module RickMortyApi
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "rick_morty_api/version"
+require "rick_morty_api/character"
+require "rick_morty_api/location"
+require "rick_morty_api/episode"
